@@ -25,5 +25,5 @@ jobs:
       uses: ncipollo/release-action@v1.10.0
       with:
         tag: "1.0"
-        token: ${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}
+        token: ${{ secrets.GITHUB_TOKEN }}
         artifacts: "./UltimateApp/bin/Release/netcoreapp3.1/UltimateApp"
